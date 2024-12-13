@@ -5,6 +5,14 @@ public class Main
   public static void main(String[] args)
   {
     Scanner sc = new Scanner(System.in);
+    Person p = new Person();
+    p.setNameF("Daniel");
+    p.setNameL("Nguyen");
+    p.setAge(17);
+    p.setSSN("21592193159192");
+
+    System.out.println(p.toString());
+    /* 
     Point2D p1 = new Point2D();
     Point2D p2 = new Point2D();
     
@@ -26,7 +34,7 @@ public class Main
     d.Wag();
     d.Bark();
     d.ChaseMailman();
-
+    */
     sc.close();
   }
 }
